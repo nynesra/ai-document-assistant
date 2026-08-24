@@ -1,0 +1,186 @@
+{
+  "directories": [
+    {
+      "path": "data",
+      "exists": true
+    },
+    {
+      "path": "src",
+      "exists": true
+    },
+    {
+      "path": "tests",
+      "exists": true
+    },
+    {
+      "path": "evaluation",
+      "exists": true
+    },
+    {
+      "path": "docs",
+      "exists": true
+    },
+    {
+      "path": "logs",
+      "exists": true
+    }
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "exists": true
+    },
+    {
+      "path": "ui_app.py",
+      "exists": true
+    },
+    {
+      "path": "src/document_loader.py",
+      "exists": true
+    },
+    {
+      "path": "src/chunker.py",
+      "exists": true
+    },
+    {
+      "path": "src/retriever.py",
+      "exists": true
+    },
+    {
+      "path": "src/query_router.py",
+      "exists": true
+    },
+    {
+      "path": "src/calculator_tool.py",
+      "exists": true
+    },
+    {
+      "path": "src/decision_flow.py",
+      "exists": true
+    },
+    {
+      "path": "src/tool_registry.py",
+      "exists": true
+    },
+    {
+      "path": "src/tool_executor.py",
+      "exists": true
+    },
+    {
+      "path": "src/controlled_flow.py",
+      "exists": true
+    },
+    {
+      "path": "src/guardrails.py",
+      "exists": true
+    },
+    {
+      "path": "src/trace_logger.py",
+      "exists": true
+    },
+    {
+      "path": "src/ui_helpers.py",
+      "exists": true
+    },
+    {
+      "path": "evaluation/eval_set.json",
+      "exists": true
+    },
+    {
+      "path": "evaluation/day17_eval_results.json",
+      "exists": true
+    },
+    {
+      "path": "docs/day10_threshold_experiments.md",
+      "exists": true
+    },
+    {
+      "path": "docs/day11_embedding_retrieval.md",
+      "exists": true
+    },
+    {
+      "path": "docs/day13_decision_flow.md",
+      "exists": true
+    },
+    {
+      "path": "docs/day14_controlled_tool_calls.md",
+      "exists": true
+    },
+    {
+      "path": "docs/day15_guardrails.md",
+      "exists": true
+    },
+    {
+      "path": "docs/day16_evaluation_set.md",
+      "exists": true
+    },
+    {
+      "path": "docs/day17_gold_evaluation.md",
+      "exists": true
+    },
+    {
+      "path": "docs/day18_ui_logging.md",
+      "exists": true
+    }
+  ],
+  "missing_directories": [],
+  "missing_files": [],
+  "knowledge_base": {
+    "count": 12,
+    "documents": [
+      "fastapi_kullanimi.md",
+      "git_komutlari.md",
+      "hata_cozumleri.md",
+      "loglama.md",
+      "model_degerlendirme.md",
+      "proje_klasor_yapisi.md",
+      "python_kurulumu.md",
+      "sanal_ortam.md",
+      "servis_kurulumu.md",
+      "siniflandirma_metrikleri.md",
+      "test_sureci.md",
+      "veri_temizleme.md"
+    ],
+    "target_min": 10,
+    "target_max": 20,
+    "within_target": true
+  },
+  "readme": {
+    "exists": true,
+    "size_bytes": 25728,
+    "non_empty": true
+  },
+  "eval_set": {
+    "exists": true,
+    "readable": true,
+    "count": 20,
+    "expected_count": 20,
+    "valid_count": true
+  },
+  "eval_results": {
+    "exists": true,
+    "readable": true,
+    "total_queries": 20,
+    "end_to_end_accuracy": 1.0,
+    "error_count": 0
+  },
+  "tests": {
+    "count": 12,
+    "files": [
+      "test_chunker.py",
+      "test_day12_metrics.py",
+      "test_decision_flow.py",
+      "test_delivery_check.py",
+      "test_document_loader.py",
+      "test_embedding_retriever.py",
+      "test_eval_set.py",
+      "test_gold_evaluation.py",
+      "test_guardrails.py",
+      "test_retriever.py",
+      "test_tool_control.py",
+      "test_ui_helpers.py"
+    ],
+    "has_tests": true
+  },
+  "critical_delivery_ready": true
+}

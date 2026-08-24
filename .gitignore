@@ -1,0 +1,41 @@
+# Python sanal ortam
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Pytest cache
+.pytest_cache/
+
+# Coverage
+.coverage
+htmlcov/
+
+# Environment / secret files
+.env
+.env.*
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
+# İşletim sistemi geçici dosyaları
+.DS_Store
+Thumbs.db
+
+# Python build
+build/
+dist/
+*.egg-info/
+
+# Kullanıcı sorgularını içeren runtime logları
+logs/*.jsonl
+
+# Geçici dosyalar
+*.tmp
+*.temp

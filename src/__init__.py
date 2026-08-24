@@ -1,0 +1,1 @@
+#Bu klasör Python modüllerinin bulunduğu bir pakettir.
